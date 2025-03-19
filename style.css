@@ -1,0 +1,78 @@
+/* Dark Theme Styling */
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Chat Container */
+.chat-container {
+    width: 400px;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+/* Chat Box */
+.chat-box {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #333;
+    background: #222;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+/* Messages */
+.message {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.user {
+    background: #0078D7;
+    text-align: right;
+    color: white;
+}
+
+.bot {
+    background: #444;
+    text-align: left;
+    color: white;
+}
+
+/* Input Area */
+.input-area {
+    display: flex;
+    margin-top: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background: #0078D7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #005bb5;
+}
